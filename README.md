@@ -1,5 +1,11 @@
 # warp_fx
 
+[![pub package](https://img.shields.io/pub/v/warp_fx.svg)](https://pub.dev/packages/warp_fx)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IldySilva/warp_fx/main/example/video-example.gif" width="280" alt="A DistortionWave carrying a payment review screen into its receipt">
+</p>
+
 Two GPU effects for Flutter, written as fragment shaders with no native code:
 
 - **`DistortionWave`**: a colourful lens wave that opens from a button, an
