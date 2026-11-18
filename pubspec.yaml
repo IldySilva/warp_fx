@@ -1,0 +1,33 @@
+name: warp_fx
+description: >-
+  Distortion waves and border beams for Flutter: a colourful lens wave that
+  carries one view into another, and animated glowing borders. GPU fragment
+  shaders, no native code.
+version: 0.1.0
+repository: https://github.com/IldySilva/warp_fx
+issue_tracker: https://github.com/IldySilva/warp_fx/issues
+topics:
+  - animation
+  - shader
+  - effects
+  - transition
+  - ui
+
+environment:
+  sdk: ^3.14.0
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  shaders:
+    - shaders/wave.frag
+    - shaders/beam_rotate.frag
+    - shaders/beam_blob.frag
